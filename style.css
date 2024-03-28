@@ -1,0 +1,36 @@
+body{
+    display : flexbox;
+    background-color:rgb(64, 215, 235);
+    align-items: center;
+}
+
+#name{
+    table-layout: auto;
+    padding-right : 100px;
+
+}
+table{
+    border:1px solid;
+}
+
+.menu{
+    display:flex;
+}
+
+.orderlist {
+    margin-left : 50px;
+}
+
+.order{
+    display:flex;
+}
+
+.quantityBtns{
+    display:flex;
+    margin-left: 10px;
+    border : 1px solid red;
+    border-radius: 5px;
+    padding : 2px;
+    width : auto;
+}
+
